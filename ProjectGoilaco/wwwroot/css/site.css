@@ -1,0 +1,114 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+/*html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin-bottom: 60px; 
+}
+
+.redtext {
+    color: #c10000;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.bluetext {
+    color: #5e17eb;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.blacktext {
+    color: #373737;
+    font-weight: bold;
+}
+
+.labelblacktext {
+    color: #373737;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.whitetext {
+    color: #f0f5f9 !important;
+    font-weight: bold;
+}
+
+.labelwhitetext {
+    color: #f0f5f9 !important;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navitem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #f4f6ff;
+    background-color: rgb(82 113 255);
+    padding: 8px 20px;
+    position: relative;
+    clip-path: polygon(85% 0, 100% 30%, 100% 100%, 0 100%, 0 0);
+    font-size: 0.9em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.info-box {
+    background-image: url('/image/Others/icon-1.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+    aspect-ratio: 5 / 2.2;
+    margin-top: 30px;
+    /*margin-left: 50px;*/
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.info-content {
+    margin-top: 10px;
+}
+
+.info-title {
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: -15px;
+    margin-top: -4px;
+}

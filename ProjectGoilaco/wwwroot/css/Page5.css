@@ -1,0 +1,253 @@
+﻿
+.b1-background {
+    background-image: url('/image/background/Anhmemxanh.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.avatar-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100px; 
+}
+
+.avatar {
+    width: 130px; 
+    height: 130px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+
+.vientb1 {
+    background-image: url('/image/Others/VienThongBao.png');
+    background-size: 250px 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.box1, .box2 {
+    border: 2px solid red; 
+    padding: 20px; 
+    flex: 1; 
+    text-align: center; 
+}
+
+.box1 {
+    background-color: #fffbf6;
+}
+
+.box2 {
+    background-color: #ffffff;
+}
+
+.account-box {
+    background-color: #f04b16;
+    color: white;
+    padding: 10px 0px 10px 10px;
+    font-size: 13px;
+    width: 95%;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.highlight-text {
+    font-weight: bold; 
+    text-transform: uppercase; 
+    font-size: 15px; 
+}
+
+.table-bordered {
+    border: 2px solid red;
+}
+
+.table-bordered th,
+.table-bordered td {
+    border: 2px solid red; 
+}
+
+.checkout {
+    border: none !important;
+    box-shadow: none;
+}
+
+.checkin {
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+}
+
+
+.boxcontrol1, .boxcontrol2 {
+    border: 2px solid black;
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+}
+
+.boxcontrol1 {
+    background-color: #ecf8fd;
+}
+
+.boxcontrol1 {
+    background-color: #f4faff;
+}
+
+#chartCheckCard .highcharts-background {
+    fill: #ecf8fd;
+}
+
+.rectangle {
+    width: 220px;
+    height: 70px;
+    background-color: #a3e1dc;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*clip-path: polygon(0 0, 100% 0%, 90% 100%, 0% 100%);*/
+    overflow: visible !important;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    background-color: #5271ff;
+    border-radius: 50%;
+    transform: translateX(-30px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.redtext1 {
+    color: #c10000;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.labletext1 {
+    color: #000000;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+.teamColorVV {
+    width: 50px;
+    height: 10px;
+    background-color: #db8c24;
+    border-radius: 50px;
+    margin-top: 5px;
+}
+
+.teamColorGLC {
+    width: 50px;
+    height: 10px;
+    background-color: #45aaf7;
+    border-radius: 50px;
+    margin-top: 5px;
+}
+
+.teamColorTW {
+    width: 50px;
+    height: 10px;
+    background-color: #5271ff;
+    border-radius: 50px;
+    margin-top: 5px;
+}
+
+.colorVV {
+    background-color: #db8c24 !important;
+    color: #f1f2fa !important;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.colorGLC {
+    background-color: #45aaf7 !important;
+    color: #f1f2fa !important;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.colorTW {
+    background-color: #5271ff !important;
+    color: #f1f2fa !important;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.labelMT {
+    width: 90px;
+    height: 30px;
+    background-color: #004aad;
+    display: flex;
+    color: #f5f4f3;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    justify-content: center;
+    align-items: center;
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
+}
+
+.divContentMT {
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.switchery {
+    width: 40px !important; 
+}
+
+.note-box {
+    background-image: url('/image/Others/icon-3.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 180px;
+    /*max-width: 100px;*/
+    height: auto;
+    aspect-ratio: 1 / 1;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.note-content {
+    /*margin-top: 10px;*/
+}
+
+.note-title {
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 4px;
+}
+
+.boxVe
+{
+    height: 10px;
+    width: 50px;
+}
+
+.equalSign {
+    width: 50px;
+    height: 15px;
+    border-radius: 50px;
+    background-color: #5271ff;
+}

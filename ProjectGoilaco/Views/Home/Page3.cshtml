@@ -1,0 +1,395 @@
+﻿
+@section Styles
+{
+    <link href="~/css/Page3.css" rel="stylesheet" />
+}
+
+<div class="d-flex b1-background">
+
+    <div class="col-2 ms-4" style="border-right: solid 4px black;">
+
+        <div class="avatar-container mt-5">
+            <img src="https://i0.wp.com/umsu.ac.id/berita/wp-content/uploads/2024/03/alasan-mengapa-cristiano-ronaldo-dicoret-dari-timnas-portugal-analisis-mendalam.jpg?resize=700%2C375&ssl=1" alt="Avatar" class="avatar">
+        </div>
+
+        <div class="info-box">
+            <div class="info-title">2402</div>
+
+            <div class="info-content">
+                <span class="blacktext">Tên: </span><span>Lê Hùng Cường</span><br/>
+                <span class="blacktext">Số điểm tích trữ: </span><span>1000 điểm</span><br />
+                <span class="blacktext">Chức vụ: </span><span class="redtext">Thuyền viên</span>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-start align-items-center gap-2 mt-3">
+            <a href="#">
+                <img src="~/image/icon/icon-2.png" style="width: 35px; height: auto;" />
+            </a>
+            <a href="#">
+                <img src="~/image/icon/icon-4.png" style="width: 35px; height: auto;" />
+            </a>
+            <a href="#">
+                <img src="~/image/icon/icon-5.png" style="width: 35px; height: auto;" />
+            </a>
+            <a href="#">
+                <img src="~/image/icon/icon-6.png" style="width: 35px; height: auto;" />
+            </a>
+            <a href="#">
+                <img src="~/image/icon/icon-7.png" style="width: 35px; height: auto;" />
+            </a>
+        </div>
+
+        <div class="d-flex gap-1 mt-3">
+            <div class="redtext">
+                Kết quả tuần
+            </div>
+
+            <div style="font-size: 1.2em;">
+                <i class="fa-regular fa-clock"></i>
+            </div>
+
+        </div>
+
+        <div>
+            <span class="blacktext">Tổng vé: </span><span>100 vé</span><br />
+            <span class="blacktext">Hiệu suất: </span><span>55%</span><br />
+            <span class="blacktext">Số tiền: </span><span>10 triệu</span>
+        </div>
+
+        <div class="mt-2">
+            <div class="redtext">
+                KPI tháng
+            </div>
+
+            <div>
+                Vé >> <span class="blacktext">20000 vé</span>
+            </div>
+            <div class="d-flex align-items-center gap-1">
+                <div class="progress" style="width: 65%; position: relative;">
+                    <div class="progress-bar" role="progressbar" style="width: 60%; background-color: #f1c116;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="fw-bold" style="color: #f1c116;">60%</div>
+            </div>
+
+            <div class="mt-2">
+                Hiệu suất >> <span class="blacktext">55%</span>
+            </div>
+            <div class="d-flex align-items-center gap-1">
+                <div class="progress" style="width: 65%; position: relative;">
+                    <div class="progress-bar" role="progressbar" style="width: 39%; background-color: #00bf63;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="fw-bold" style="color: #00bf63;">39%</div>
+            </div>
+
+            <div class="mt-2">
+                Số tiền >> <span class="blacktext">200 triệu</span>
+            </div>
+            <div class="d-flex align-items-center gap-1">
+                <div class="progress" style="width: 65%; position: relative;">
+                    <div class="progress-bar" role="progressbar" style="width: 60%; background-color: #c10000;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="fw-bold" style="color: #c10000">60%</div>
+            </div>
+        </div>
+
+
+        <div class="d-flex mt-3" style="width: 90%">
+            <div class="d-flex justify-content-center align-items-center box1">Tổng vé đã bán</div>
+            <div class="d-flex justify-content-center align-items-center box2">15.000 vé</div>
+        </div>
+
+    </div>
+
+   <div class="col" style="max-height: 100vh; overflow-y: auto;">
+       
+       <div class="d-flex justify-content-around gap-2 mx-5 mt-3">
+
+            <div class="navitem">
+                bản đồ <span>kho báu</span>
+            </div>
+
+            <div class="navitem">
+                Hiệu suất <span>công việc</span>
+            </div>
+
+            <div class="navitem">
+                kết quả <span>thi đua</span>
+            </div>
+
+            <div class="navitem">
+                Nhiện vụ và<span>liên lạc</span>
+            </div>
+
+            <div class="navitem">
+                Tin tức <span>nội bộ</span>
+            </div>
+
+            <div class="navitem">
+                Tranning
+            </div>
+
+            <div class="navitem">
+                Bảng <span>thành tích</span>
+            </div>
+
+       </div>
+
+        <div class="d-flex mt-4 mx-4">
+
+           <div class="col-6">
+
+               <div class="d-flex gap-2">
+                    <div id="chartContainer" style="width: 80%; height: 215px;"></div>
+                   <div>
+                        <div style="font-size: 1.2em;">
+                            <i class="fa-regular fa-clock"></i>
+                        </div>
+                        <div class="redtext">
+                            <span style="display: block">Biểu đồ</span> 
+                            <span style="display: block">cuộc gọi</span>
+                            <span style="display: block">hàng ngày</span>
+                        </div>
+                   </div>
+               </div>
+
+               <div class="mt-4">
+                    <table class="table table-bordered">
+                        <thead class="table-light">
+                            <tr>
+                                <th class="team-column">Team</th>
+                                <th class="kpi-column">KPI/THÁNG</th>
+                                <th class="kpi-column">THANG NĂNG LƯỢNG</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="team-column">
+                                    <div class="mt-4">team vivutoday</div>
+                                    <div class="d-flex justify-content-center">
+                                        <img src="~/image/Others/vivutoday.jpg" alt="Alternate Text" style="width: 40px; height: auto;" />
+                                    </div>
+                                </td>
+                                <td class="kpi-column">
+                                    <div class="">
+                                        <div>7000 vé</div>
+                                        <div>55% hiệu suất</div>
+                                        <div>600 giờ</div>
+                                    </div>
+                                </td>
+                                <td class="power-column">
+                                    <div>
+                                        Vé >> <span class="blacktext">20000 vé</span>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-1">
+                                        <div class="progress" style="width: 65%; position: relative;">
+                                            <div class="progress-bar" role="progressbar" style="width: 60%; background-color: #f1c116;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <div class="fw-bold" style="color: #f1c116;">60%</div>
+                                    </div>
+
+                                    <div class="mt-2">
+                                        Hiệu suất >> <span class="blacktext">55%</span>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-1">
+                                        <div class="progress" style="width: 65%; position: relative;">
+                                            <div class="progress-bar" role="progressbar" style="width: 39%; background-color: #00bf63;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <div class="fw-bold" style="color: #00bf63;">39%</div>
+                                    </div>
+
+                                    <div class="mt-2">
+                                        Số tiền >> <span class="blacktext">200 triệu</span>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-1">
+                                        <div class="progress" style="width: 65%; position: relative;">
+                                            <div class="progress-bar" role="progressbar" style="width: 60%; background-color: #c10000;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <div class="fw-bold" style="color: #c10000">60%</div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="team-column">
+                                    <div class="mt-4">team goilaco</div>
+                                    <div class="d-flex justify-content-center">
+                                        <img src="~/image/Others/goilaco.jpg" alt="Alternate Text" style="width: 40px; height: auto;" />
+                                    </div>
+                                </td>
+                                <td class="kpi-column">
+                                    <div class="">
+                                        <div>10000 vé</div>
+                                        <div>55% hiệu suất</div>
+                                        <div>800 giờ</div>
+                                    </div>
+                                </td>
+                                <td class="power-column">
+                                    <div>
+                                        Vé >> <span class="labletext">20000 vé</span>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-1">
+                                        <div class="progress" style="width: 65%; position: relative;">
+                                            <div class="progress-bar" role="progressbar" style="width: 60%; background-color: #f1c116;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <div style="color: #f1c116">60%</div>
+                                    </div>
+
+                                    <div class="mt-2">
+                                        Hiệu suất >> <span class="labletext">55%</span>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-1">
+                                        <div class="progress" style="width: 65%; position: relative;">
+                                            <div class="progress-bar" role="progressbar" style="width: 39%; background-color: #00bf63;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <div style="color: #00bf63;">39%</div>
+                                    </div>
+
+                                    <div class="mt-2">
+                                        Số giờ >> <span class="labletext">200 triệu</span>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-1">
+                                        <div class="progress" style="width: 65%; position: relative;">
+                                            <div class="progress-bar" role="progressbar" style="width: 60%; background-color: #c10000;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <div style="color: #c10000">60%</div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="team-column">
+                                    <div class="mt-4">team techwise</div>
+                                    <div class="d-flex justify-content-center">
+                                        <img src="~/image/Others/techwise1.jpg" alt="Alternate Text" style="width: 40px; height: auto;" />
+                                    </div>
+                                </td>
+                                <td class="kpi-column">
+                                    <div class="">
+                                        <div>3000 vé</div>
+                                        <div>55% hiệu suất</div>
+                                        <div>600 giờ</div>
+                                    </div>
+                                </td>
+                                <td class="power-column">
+                                    <div>
+                                        Vé >> <span class="labletext">20000 vé</span>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-1">
+                                        <div class="progress" style="width: 65%; position: relative;">
+                                            <div class="progress-bar" role="progressbar" style="width: 60%; background-color: #f1c116;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <div style="color: #f1c116">60%</div>
+                                    </div>
+
+                                    <div class="mt-2">
+                                        Hiệu suất >> <span class="labletext">55%</span>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-1">
+                                        <div class="progress" style="width: 65%; position: relative;">
+                                            <div class="progress-bar" role="progressbar" style="width: 39%; background-color: #00bf63;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <div style="color: #00bf63;">39%</div>
+                                    </div>
+
+                                    <div class="mt-2">
+                                        Số giờ >> <span class="labletext">200 triệu</span>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-1">
+                                        <div class="progress" style="width: 65%; position: relative;">
+                                            <div class="progress-bar" role="progressbar" style="width: 60%; background-color: #c10000;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <div style="color: #c10000">60%</div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div class="d-flex gap-2 justify-content-center mb-3">
+                        <div class="redtext">Theo dõi kpi team tổng đài</div>
+                        <div style="font-size: 1.2em;">
+                            <i class="fa-regular fa-clock"></i>
+                        </div>
+                    </div>
+               </div>
+
+
+           </div>
+
+           <div class="col">
+               
+               <div class="d-flex justify-content-center mt-5">
+
+                   <div class="redtext">Thông báo từ các thuỷ thủ đoàn!</div>
+
+               </div>
+
+                <div class="mt-5 ms-4">
+
+                    <div class="d-flex mt-3" style="width: 100%">
+                        <div class="boxcontrol1">
+                            <div id="chartCheckCard" style="width: 250px; height: 400px;"></div>
+                        </div>
+
+                        <div class="d-flex justify-content-center align-items-center boxcontrol2">
+
+                            <div class="d-flex gap-5 flex-column">
+                                <div class="rectangle">
+                                    <div class="circle labelblacktext">
+                                        Team VV
+                                    </div>
+                                    <span class="redtext">60%</span>
+                                </div>
+
+                                <div class="rectangle">
+                                    <div class="circle labelblacktext">
+                                        Team TW
+                                    </div>
+                                    <span class="redtext">50%</span>
+                                </div>
+
+                                <div class="rectangle">
+                                    <div class="circle labelblacktext">
+                                        Team GLC
+                                    </div>
+                                    <span class="redtext">55%</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="d-flex justify-content-center mt-3">
+
+                        <div class="d-flex gap-1 justify-content-center">
+                            <div class="redtext">Theo dõi</div>
+                            <span class="bluetext"> vé</span>
+                            <div style="font-size: 1.2em;">
+                                <i class="fa-regular fa-clock"></i>
+                            </div>
+                        </div>
+
+                        <div class="d-flex gap-1 justify-content-center" style="margin-left: 120px;">
+                            <div class="redtext">Theo dõi</div>
+                            <span class="bluetext"> hiệu suất</span>
+                            <div style="font-size: 1.2em;">
+                                <i class="fa-regular fa-clock"></i>
+                            </div>
+                        </div>
+
+                    </div>
+
+               </div>
+
+           </div>
+
+       </div>
+
+   </div>
+
+</div>
+
+@section Scripts
+{
+    <script src="~/js/Page3.js"></script>
+}
