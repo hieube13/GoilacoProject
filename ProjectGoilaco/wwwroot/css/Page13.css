@@ -1,0 +1,80 @@
+﻿.b1-background {
+    background-image: url('/image/background/Anhmemxanh.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 100vw; 
+    height: 100vh; 
+    position: relative; 
+}
+
+.avatar-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100px; 
+}
+
+.avatar {
+    width: 130px; 
+    height: 130px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+
+.table-bordered {
+    border: 2px solid red;
+    border-collapse: collapse;
+}
+
+.table-bordered th,
+.table-bordered td {
+    border: 2px solid red;
+    text-align: center;
+    vertical-align: middle;
+}
+
+th.subheader {
+    text-align: center;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.purpletext {
+    color: #002c5c;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.pingBoxOnline {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #46d832;
+}
+
+.pingBoxOffline {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ef4136;
+}
+
+.xemTrcBg {
+    background-image: url('/image/Others/14.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 35vw;
+    height: 35vh;
+    position: relative;
+}
+
+.xemTrcContent {
+    width: 32vw;
+    height: 32vh;
+    position: absolute;
+    top: 10px;
+    left: 25px;
+}

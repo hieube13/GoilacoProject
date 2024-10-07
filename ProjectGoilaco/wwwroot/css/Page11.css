@@ -1,0 +1,51 @@
+﻿.b1-background {
+    background-image: url('/image/background/Anhmemxanh.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 100vw; 
+    height: 100vh; 
+    position: relative; 
+}
+
+.avatar-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100px; 
+}
+
+.avatar {
+    width: 130px; 
+    height: 130px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+
+.table-bordered {
+    border: 2px solid red;
+    border-collapse: collapse;
+}
+
+.table-bordered th,
+.table-bordered td {
+    border: 2px solid red;
+    text-align: center;
+    vertical-align: middle;
+}
+
+th.subheader {
+    text-align: center;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+.btnCustome {
+    background-color: #4194d4;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
