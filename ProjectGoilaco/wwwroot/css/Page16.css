@@ -1,0 +1,63 @@
+﻿.b1-background {
+    background-image: url('/image/background/Anhmemxanh.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+
+.b1-container {
+    width: 100%;
+}
+
+.avatar-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100px; 
+}
+
+.avatar {
+    width: 130px; 
+    height: 130px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+
+.boxTD {
+    width: 150px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #f04b16;
+}
+
+.cardNode
+{
+    width: 20px;
+    height: 20px;
+    background-color: #fcbb65;
+    border-radius: 50%;
+}
+
+.redNormaltext
+{
+    color: #c10000;
+    font-weight: bold;
+}
+
+.boxExam
+{
+    padding: 10px 10px;
+    background-color: #bfe4ff;
+    border-radius: 50px;
+}
+
+
+
+
+

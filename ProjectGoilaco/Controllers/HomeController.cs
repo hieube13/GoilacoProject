@@ -68,6 +68,26 @@ namespace ProjectGoilaco.Controllers
             return View();
         }
 
+        public IActionResult Page14()
+        {
+            return View();
+        }
+
+        public IActionResult Page15()
+        {
+            return View();
+        }
+
+        public IActionResult Page16()
+        {
+            return View();
+        }
+
+        public IActionResult Page17()
+        {
+            return View();
+        }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

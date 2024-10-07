@@ -3,6 +3,7 @@
     background-image: url('/image/background/Anhmemxanh.png');
     background-size: cover;
     background-position: center;
+    min-height: 100vh;
 }
 
 .avatar-container {

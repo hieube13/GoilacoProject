@@ -1,11 +1,19 @@
 ﻿.b1-background {
     background-image: url('/image/background/Anhmemxanh.png');
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    width: 100vw; 
-    height: 100vh; 
-    position: relative; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    /*position: relative;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.b1-container {
+    width: 95%;
 }
 
 .avatar-container {
