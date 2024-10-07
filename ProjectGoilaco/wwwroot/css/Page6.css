@@ -47,21 +47,6 @@
     border: 2px solid red; 
 }
 
-.boxcontrol1, .boxcontrol2 {
-    border: 2px solid black;
-    padding: 20px;
-    flex: 1;
-    text-align: center;
-}
-
-.boxcontrol1 {
-    background-color: #ecf8fd;
-}
-
-.boxcontrol1 {
-    background-color: #f4faff;
-}
-
 #chartCheckCard .highcharts-background {
     fill: #ecf8fd;
 }

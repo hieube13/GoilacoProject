@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjectGoilaco")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac4618476f0796866ed469fd4db1ce51185e3f8e")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProjectGoilaco")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjectGoilaco")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

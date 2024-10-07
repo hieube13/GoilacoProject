@@ -365,3 +365,4 @@ E:\ProjectALong\ProjectGoilaco\ProjectGoilaco\bin\Debug\net8.0\zh-Hant\Microsoft
 E:\ProjectALong\ProjectGoilaco\ProjectGoilaco\obj\Debug\net8.0\ProjectGoilaco.csproj.AssemblyReference.cache
 E:\ProjectALong\ProjectGoilaco\ProjectGoilaco\obj\Debug\net8.0\ProjectGoilaco.MvcApplicationPartsAssemblyInfo.cs
 E:\ProjectALong\ProjectGoilaco\ProjectGoilaco\obj\Debug\net8.0\ProjectG.AB195B9E.Up2Date
+E:\ProjectALong\ProjectGoilaco\ProjectGoilaco\obj\Debug\net8.0\ProjectGoilaco.sourcelink.json
