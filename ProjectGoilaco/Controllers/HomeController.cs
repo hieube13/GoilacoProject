@@ -38,6 +38,22 @@ namespace ProjectGoilaco.Controllers
             return View();
         }
 
+        public IActionResult Page8()
+        {
+            return View();
+        }
+
+        public IActionResult Page9()
+        {
+            return View();
+        }
+
+        public IActionResult Page10()
+        {
+            return View();
+        }
+
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
