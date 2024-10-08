@@ -20,13 +20,6 @@
     object-fit: cover; 
 }
 
-.vientb1 {
-    background-image: url('/image/Others/VienThongBao.png');
-    background-size: 250px 150px;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
 .box1, .box2 {
     border: 2px solid red; 
     padding: 20px; 

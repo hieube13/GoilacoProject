@@ -18,6 +18,17 @@ namespace ProjectGoilaco.Controllers
             return View();
         }
 
+        public IActionResult Page1()
+        {
+            return View();
+        }
+
+        public IActionResult Page2()
+        {
+            return View();
+        }
+
+
         public IActionResult Page3()
         {
             return View();
